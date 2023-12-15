@@ -1,0 +1,110 @@
+
+body{
+    background-color:  #563123;
+    place-items: center;
+    font-family: system-ui;
+    color: white;
+    margin: 0px;
+ }
+ 
+main {
+  font-family: sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 20px;
+  font-size: 16px
+
+ } 
+.Header1{
+  background-image: url("../images/minecraft_header.jpg");
+  background-color: #526935;
+  background-size: cover;
+  color: white;
+  
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  font: bold;
+  font-size: xx-large ;
+ 
+ }
+
+.Header2 {
+  text-align: center;
+  padding-left: 20px;
+}
+
+.Header4 {
+  text-align: center;
+  padding-right: 30px;
+}
+
+.h2_updates {
+  text-align: center;
+}
+
+.minecraft_timeline {
+  height: 460px;
+  float: left;
+  width: 320px;
+
+}
+
+
+
+.btn-about-minecraft {
+   font: bold;
+   color: white;
+   padding: 0.55em 0.75em;
+   background: #526935;
+   border: 0.1em solid black;
+   border-radius: 50vw;
+   cursor: pointer;
+   transition: background-color 250ms;
+
+   transition: transform 0.3s ease 0s;
+ }
+ 
+ 
+.btn-about-minecraft:hover {
+   transform: translateY(-5px)
+ }
+
+.navbar ul {
+  list-style-type: none;
+  background-color: rgb(87, 138, 26);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  
+ }
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+
+  transition: transform 0.3s ease 0s;
+}
+
+.navbar a:hover {
+  background-color: #526935;
+  transform: translateY(-5px);
+}
+
+.navbar li {
+  float: left;
+}
+
+.minecraft_contact {
+  color: white;
+}
+
+.h2_content_creation {
+  text-align: center;
+  padding-right: 300px;
+}
